@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWorldWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Hello, WatchKit!" id="gaF-e5-uyN"/>
+                        <button width="1" alignment="left" title="click" id="6Fw-jp-f3V">
+                            <connections>
+                                <segue destination="4yf-Ye-aTI" kind="push" id="6Rk-T5-qad"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.43487605052047917" blue="0.67546679581622349" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+        </scene>
+        <!--Interface Controller2-->
+        <scene sceneID="z1h-jC-F83">
+            <objects>
+                <controller id="4yf-Ye-aTI" customClass="InterfaceController2" customModule="HelloWorldWatch_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="click" id="cC9-HU-vLG">
+                            <connections>
+                                <segue destination="SCL-5c-8s1" kind="push" id="3OS-xk-fVE"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.29868593514174169" blue="0.24886391129282215" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="349" y="131"/>
+        </scene>
+        <!--Interface Controller3-->
+        <scene sceneID="FWZ-Lj-Bg7">
+            <objects>
+                <controller id="SCL-5c-8s1" customClass="InterfaceController3" customModule="HelloWorldWatch_WatchKit_Extension">
+                    <color key="backgroundColor" red="0.41812794845581192" green="0.4598658170090334" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="534" y="131"/>
+        </scene>
+    </scenes>
+</document>

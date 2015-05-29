@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85131B1A1B14F0EC00BFBDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85131B191B14F0EC00BFBDBF /* AppDelegate.swift */; };
+		85131B1C1B14F0EC00BFBDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85131B1B1B14F0EC00BFBDBF /* ViewController.swift */; };
+		85131B1F1B14F0EC00BFBDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85131B1D1B14F0EC00BFBDBF /* Main.storyboard */; };
+		85131B211B14F0EC00BFBDBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85131B201B14F0EC00BFBDBF /* Images.xcassets */; };
+		85131B241B14F0EC00BFBDBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85131B221B14F0EC00BFBDBF /* LaunchScreen.xib */; };
+		85131B301B14F0EC00BFBDBF /* HelloWorldWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85131B2F1B14F0EC00BFBDBF /* HelloWorldWatchTests.swift */; };
+		85131B421B14F11D00BFBDBF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85131B411B14F11D00BFBDBF /* InterfaceController.swift */; };
+		85131B441B14F11D00BFBDBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85131B431B14F11D00BFBDBF /* Images.xcassets */; };
+		85131B481B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 85131B471B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app */; };
+		85131B501B14F11D00BFBDBF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85131B4E1B14F11D00BFBDBF /* Interface.storyboard */; };
+		85131B521B14F11D00BFBDBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85131B511B14F11D00BFBDBF /* Images.xcassets */; };
+		85131B551B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 85131B3D1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85FC33081B14F92A0002E300 /* InterfaceController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC33071B14F92A0002E300 /* InterfaceController3.swift */; };
+		85FC330C1B14F97B0002E300 /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC330B1B14F97B0002E300 /* InterfaceController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85131B2A1B14F0EC00BFBDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85131B0C1B14F0EC00BFBDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85131B131B14F0EC00BFBDBF;
+			remoteInfo = HelloWorldWatch;
+		};
+		85131B491B14F11D00BFBDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85131B0C1B14F0EC00BFBDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85131B461B14F11D00BFBDBF;
+			remoteInfo = "HelloWorldWatch WatchKit App";
+		};
+		85131B531B14F11D00BFBDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85131B0C1B14F0EC00BFBDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85131B3C1B14F11D00BFBDBF;
+			remoteInfo = "HelloWorldWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85131B5C1B14F11D00BFBDBF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85131B551B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85131B141B14F0EC00BFBDBF /* HelloWorldWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85131B181B14F0EC00BFBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85131B191B14F0EC00BFBDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85131B1B1B14F0EC00BFBDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85131B1E1B14F0EC00BFBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85131B201B14F0EC00BFBDBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85131B231B14F0EC00BFBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		85131B291B14F0EC00BFBDBF /* HelloWorldWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85131B2E1B14F0EC00BFBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85131B2F1B14F0EC00BFBDBF /* HelloWorldWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldWatchTests.swift; sourceTree = "<group>"; };
+		85131B3D1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HelloWorldWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85131B401B14F11D00BFBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85131B411B14F11D00BFBDBF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		85131B431B14F11D00BFBDBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85131B471B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorldWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85131B4D1B14F11D00BFBDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85131B4F1B14F11D00BFBDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		85131B511B14F11D00BFBDBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		85FC33071B14F92A0002E300 /* InterfaceController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterfaceController3.swift; path = "../HelloWorldWatch WatchKit App/InterfaceController3.swift"; sourceTree = "<group>"; };
+		85FC330B1B14F97B0002E300 /* InterfaceController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterfaceController2.swift; path = ../InterfaceController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85131B111B14F0EC00BFBDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B261B14F0EC00BFBDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B3A1B14F11D00BFBDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85131B0B1B14F0EC00BFBDBF = {
+			isa = PBXGroup;
+			children = (
+				85131B161B14F0EC00BFBDBF /* HelloWorldWatch */,
+				85131B2C1B14F0EC00BFBDBF /* HelloWorldWatchTests */,
+				85131B3E1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension */,
+				85131B4B1B14F11D00BFBDBF /* HelloWorldWatch WatchKit App */,
+				85131B151B14F0EC00BFBDBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85131B151B14F0EC00BFBDBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85131B141B14F0EC00BFBDBF /* HelloWorldWatch.app */,
+				85131B291B14F0EC00BFBDBF /* HelloWorldWatchTests.xctest */,
+				85131B3D1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex */,
+				85131B471B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85131B161B14F0EC00BFBDBF /* HelloWorldWatch */ = {
+			isa = PBXGroup;
+			children = (
+				85131B191B14F0EC00BFBDBF /* AppDelegate.swift */,
+				85131B1B1B14F0EC00BFBDBF /* ViewController.swift */,
+				85131B1D1B14F0EC00BFBDBF /* Main.storyboard */,
+				85131B201B14F0EC00BFBDBF /* Images.xcassets */,
+				85131B221B14F0EC00BFBDBF /* LaunchScreen.xib */,
+				85131B171B14F0EC00BFBDBF /* Supporting Files */,
+			);
+			path = HelloWorldWatch;
+			sourceTree = "<group>";
+		};
+		85131B171B14F0EC00BFBDBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85131B181B14F0EC00BFBDBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85131B2C1B14F0EC00BFBDBF /* HelloWorldWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				85131B2F1B14F0EC00BFBDBF /* HelloWorldWatchTests.swift */,
+				85131B2D1B14F0EC00BFBDBF /* Supporting Files */,
+			);
+			path = HelloWorldWatchTests;
+			sourceTree = "<group>";
+		};
+		85131B2D1B14F0EC00BFBDBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85131B2E1B14F0EC00BFBDBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85131B3E1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85FC33071B14F92A0002E300 /* InterfaceController3.swift */,
+				85FC330B1B14F97B0002E300 /* InterfaceController2.swift */,
+				85131B411B14F11D00BFBDBF /* InterfaceController.swift */,
+				85131B431B14F11D00BFBDBF /* Images.xcassets */,
+				85131B3F1B14F11D00BFBDBF /* Supporting Files */,
+			);
+			path = "HelloWorldWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		85131B3F1B14F11D00BFBDBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85131B401B14F11D00BFBDBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85131B4B1B14F11D00BFBDBF /* HelloWorldWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				85131B4E1B14F11D00BFBDBF /* Interface.storyboard */,
+				85131B511B14F11D00BFBDBF /* Images.xcassets */,
+				85131B4C1B14F11D00BFBDBF /* Supporting Files */,
+			);
+			path = "HelloWorldWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		85131B4C1B14F11D00BFBDBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85131B4D1B14F11D00BFBDBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85131B131B14F0EC00BFBDBF /* HelloWorldWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85131B331B14F0EC00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch" */;
+			buildPhases = (
+				85131B101B14F0EC00BFBDBF /* Sources */,
+				85131B111B14F0EC00BFBDBF /* Frameworks */,
+				85131B121B14F0EC00BFBDBF /* Resources */,
+				85131B5C1B14F11D00BFBDBF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85131B541B14F11D00BFBDBF /* PBXTargetDependency */,
+			);
+			name = HelloWorldWatch;
+			productName = HelloWorldWatch;
+			productReference = 85131B141B14F0EC00BFBDBF /* HelloWorldWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85131B281B14F0EC00BFBDBF /* HelloWorldWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85131B361B14F0EC00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatchTests" */;
+			buildPhases = (
+				85131B251B14F0EC00BFBDBF /* Sources */,
+				85131B261B14F0EC00BFBDBF /* Frameworks */,
+				85131B271B14F0EC00BFBDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85131B2B1B14F0EC00BFBDBF /* PBXTargetDependency */,
+			);
+			name = HelloWorldWatchTests;
+			productName = HelloWorldWatchTests;
+			productReference = 85131B291B14F0EC00BFBDBF /* HelloWorldWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85131B3C1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85131B591B14F11D00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch WatchKit Extension" */;
+			buildPhases = (
+				85131B391B14F11D00BFBDBF /* Sources */,
+				85131B3A1B14F11D00BFBDBF /* Frameworks */,
+				85131B3B1B14F11D00BFBDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85131B4A1B14F11D00BFBDBF /* PBXTargetDependency */,
+			);
+			name = "HelloWorldWatch WatchKit Extension";
+			productName = "HelloWorldWatch WatchKit Extension";
+			productReference = 85131B3D1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		85131B461B14F11D00BFBDBF /* HelloWorldWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85131B561B14F11D00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch WatchKit App" */;
+			buildPhases = (
+				85131B451B14F11D00BFBDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorldWatch WatchKit App";
+			productName = "HelloWorldWatch WatchKit App";
+			productReference = 85131B471B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85131B0C1B14F0EC00BFBDBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Emma Williams";
+				TargetAttributes = {
+					85131B131B14F0EC00BFBDBF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					85131B281B14F0EC00BFBDBF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 85131B131B14F0EC00BFBDBF;
+					};
+					85131B3C1B14F11D00BFBDBF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					85131B461B14F11D00BFBDBF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 85131B0F1B14F0EC00BFBDBF /* Build configuration list for PBXProject "HelloWorldWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85131B0B1B14F0EC00BFBDBF;
+			productRefGroup = 85131B151B14F0EC00BFBDBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85131B131B14F0EC00BFBDBF /* HelloWorldWatch */,
+				85131B281B14F0EC00BFBDBF /* HelloWorldWatchTests */,
+				85131B3C1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension */,
+				85131B461B14F11D00BFBDBF /* HelloWorldWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85131B121B14F0EC00BFBDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85131B1F1B14F0EC00BFBDBF /* Main.storyboard in Resources */,
+				85131B241B14F0EC00BFBDBF /* LaunchScreen.xib in Resources */,
+				85131B211B14F0EC00BFBDBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B271B14F0EC00BFBDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B3B1B14F11D00BFBDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85131B481B14F11D00BFBDBF /* HelloWorldWatch WatchKit App.app in Resources */,
+				85131B441B14F11D00BFBDBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B451B14F11D00BFBDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85131B501B14F11D00BFBDBF /* Interface.storyboard in Resources */,
+				85131B521B14F11D00BFBDBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85131B101B14F0EC00BFBDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85131B1C1B14F0EC00BFBDBF /* ViewController.swift in Sources */,
+				85131B1A1B14F0EC00BFBDBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B251B14F0EC00BFBDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85131B301B14F0EC00BFBDBF /* HelloWorldWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85131B391B14F11D00BFBDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FC33081B14F92A0002E300 /* InterfaceController3.swift in Sources */,
+				85131B421B14F11D00BFBDBF /* InterfaceController.swift in Sources */,
+				85FC330C1B14F97B0002E300 /* InterfaceController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85131B2B1B14F0EC00BFBDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85131B131B14F0EC00BFBDBF /* HelloWorldWatch */;
+			targetProxy = 85131B2A1B14F0EC00BFBDBF /* PBXContainerItemProxy */;
+		};
+		85131B4A1B14F11D00BFBDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85131B461B14F11D00BFBDBF /* HelloWorldWatch WatchKit App */;
+			targetProxy = 85131B491B14F11D00BFBDBF /* PBXContainerItemProxy */;
+		};
+		85131B541B14F11D00BFBDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85131B3C1B14F11D00BFBDBF /* HelloWorldWatch WatchKit Extension */;
+			targetProxy = 85131B531B14F11D00BFBDBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85131B1D1B14F0EC00BFBDBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85131B1E1B14F0EC00BFBDBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85131B221B14F0EC00BFBDBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85131B231B14F0EC00BFBDBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		85131B4E1B14F11D00BFBDBF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85131B4F1B14F11D00BFBDBF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85131B311B14F0EC00BFBDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85131B321B14F0EC00BFBDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85131B341B14F0EC00BFBDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HelloWorldWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85131B351B14F0EC00BFBDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = HelloWorldWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85131B371B14F0EC00BFBDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldWatch.app/HelloWorldWatch";
+			};
+			name = Debug;
+		};
+		85131B381B14F0EC00BFBDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldWatch.app/HelloWorldWatch";
+			};
+			name = Release;
+		};
+		85131B571B14F11D00BFBDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HelloWorldWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HelloWorldWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		85131B581B14F11D00BFBDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HelloWorldWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HelloWorldWatch WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		85131B5A1B14F11D00BFBDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloWorldWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		85131B5B1B14F11D00BFBDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HelloWorldWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85131B0F1B14F0EC00BFBDBF /* Build configuration list for PBXProject "HelloWorldWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85131B311B14F0EC00BFBDBF /* Debug */,
+				85131B321B14F0EC00BFBDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85131B331B14F0EC00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85131B341B14F0EC00BFBDBF /* Debug */,
+				85131B351B14F0EC00BFBDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85131B361B14F0EC00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85131B371B14F0EC00BFBDBF /* Debug */,
+				85131B381B14F0EC00BFBDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85131B561B14F11D00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85131B571B14F11D00BFBDBF /* Debug */,
+				85131B581B14F11D00BFBDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85131B591B14F11D00BFBDBF /* Build configuration list for PBXNativeTarget "HelloWorldWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85131B5A1B14F11D00BFBDBF /* Debug */,
+				85131B5B1B14F11D00BFBDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85131B0C1B14F0EC00BFBDBF /* Project object */;
+}
